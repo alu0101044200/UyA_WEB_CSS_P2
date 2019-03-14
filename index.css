@@ -1,0 +1,100 @@
+/*La fuente debe ser Arial, color negro, tamaño 1.5em. */
+body{
+  font-size: 1.5em;
+  font-family: "Arial";
+  color: black;
+
+  /*Definir la estructura básica de la página: anchura fija de 770 píxel,  cabecera y pie*/
+  max-width: 770px;
+}
+
+/*Los enlaces deben ser de color azul en estado normal, y rojo cuando se posiciona el cursor. Si se han visitado la fuente debe ser verdana y de color azul. */
+a{
+  color: blue;
+}
+
+
+a:hover{
+  color: red;
+}
+
+a:visited{
+  color: blue;
+  font-family: "Verdana";
+}
+
+/***/
+
+#top_nav {
+  /*Color de fondo de la barra de navegación superior*/
+    background-color: #D3D3D3;
+  /*Los elementos del menú deben tener un relleno de 0.3em y un margen inferior de 0.7em*/
+    padding: 0.3em;
+    margin-bottom: 0.7em;
+}
+
+
+#nav_buttons a:hover {
+  /*Los elementos del menú de navegación tienen un color de fondo cambie cuando el ratón pasa por encima de cada elemento
+*/
+    background-color: white;
+}
+
+header{
+  /* La cabecera tiene una altura de 100 píxel*/
+
+  height: 100px;
+  background-size: 500px;
+  background-image: url("Imagenes/cabecera.jpg");
+
+}
+
+/*Los enlaces dentro de las tablas serán verdes.*/
+table a{
+  color: green;
+}
+
+table a:hover{
+  color: red;
+}
+
+table a:visited{
+  color: blue;
+  font-family: "Verdana";
+}
+
+/*Los párrafos deben mostrar una separación de 0.5em de su elemento superior. */
+p {
+  margin-top: 0.5em;
+}
+
+/* columna central de contenidos de anchura 330 píxel */
+
+
+#container {
+    width:770px;
+    text-align:center;
+}
+
+#left_column {
+    float:left;
+    width:200px;
+}
+
+#center_column {
+    display: inline-block;
+    margin:0 auto;
+    width:330px;
+}
+
+#right_column {
+    float:right;
+    width:200px;
+}
+
+
+img{
+  max-width: 300px;
+  max-height: inherit;
+  margin-top: 15px;
+}
